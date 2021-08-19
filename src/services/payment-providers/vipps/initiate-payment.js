@@ -69,7 +69,7 @@ module.exports = async function initiateVippsPayment({
           {
             isDefault: "Y",
             priority: 0,
-            shippingCost: 0,
+            shippingCost: 99,
             shippingMethod: "Posten Servicepakke",
             shippingMethodId: "posten-servicepakke",
           },
